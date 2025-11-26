@@ -5,6 +5,7 @@
 ![woah-yay](https://user-images.githubusercontent.com/92617405/235195655-04ae94de-6443-450e-9d80-06afb5cf38b5.gif)
 
 I am Gopi - Builder of Brains & Bots  
+- 🔐 SystemVerilog Wizard — Constrained Random, Functional Coverage, Golden Models, Zero Fear.
 - 💡 Innovative Electronics Engineer passionate about building systems from 0 → 1  
 - 🤖 Electronics Engineer who brings silicon to life — crafting real-world, scalable systems by merging Embedded Intelligence with VLSI Precision  
 - 🔍 Love solving puzzles & tough challenges with creative programming  
