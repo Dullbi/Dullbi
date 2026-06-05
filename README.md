@@ -1,30 +1,3 @@
-<!--
-  ╔════════════════════════════════════════════════════════════════════╗
-  ║  GitHub Profile README — Gopi Mahendran  (@Dullbi)                  ║
-  ║  Sleek / modern · ECE · VLSI · Embedded                            ║
-  ║  Search "EDIT:" to personalize links & repo names.                 ║
-  ╚════════════════════════════════════════════════════════════════════╝
--->
-
-<!-- ===================== HEADER / BANNER ===================== -->
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&section=header&text=Gopi%20Mahendran&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=36&desc=From%20Silicon%20to%20Signal%20%E2%80%94%20VLSI%20%E2%80%A2%20Embedded%20%E2%80%A2%20RTL-to-GDSII&descAlignY=58&descSize=17" alt="header"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=From+Silicon+to+Signal.;Builder+of+Brains+%26+Bots.;SystemVerilog+Wizard+%E2%80%94+zero+fear.;From+behavioral+Verilog+to+custom+GDSII." alt="Typing SVG" />
-</a>
-
-<p>
-  <a href="https://www.linkedin.com/in/gopi-mahendran-25233b2a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://x.com/Venomou10431797"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-  <a href="https://www.instagram.com/_the_atlantian_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-  <a href="https://hdlbits.01xz.net/wiki/Special:VlgStats/Me"><img src="https://img.shields.io/badge/HDLBits-0E7C61?style=for-the-badge&logoColor=white" alt="HDLBits"/></a>
-  <a href="mailto:ipogmgk2004@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Dullbi&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="views"/>
-</p>
-
-</div>
 
 <!-- ===================== ABOUT ===================== -->
 ## Hey there 👋 &nbsp;I'm Gopi — Builder of Brains & Bots
@@ -32,9 +5,6 @@
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"/>
 
 ![woah-yay](https://user-images.githubusercontent.com/92617405/235195655-04ae94de-6443-450e-9d80-06afb5cf38b5.gif)
-
-> ### ⚡ From Silicon to Signal
-> Electronics Engineer specializing in **VLSI · Embedded Systems · RTL-to-GDSII** — B.Tech ECE @ SRM-IST (Class of 2026).
 
 - 🔐 **SystemVerilog Wizard** — constrained-random, functional coverage, golden models, zero fear.
 - 🤖 Electronics engineer who **brings silicon to life**, merging embedded intelligence with VLSI precision — building systems from **0 → 1**.
