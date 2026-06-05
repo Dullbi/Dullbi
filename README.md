@@ -33,30 +33,18 @@
 
 ![woah-yay](https://user-images.githubusercontent.com/92617405/235195655-04ae94de-6443-450e-9d80-06afb5cf38b5.gif)
 
-```c
-#include <stdbool.h>
-
-typedef struct {
-    const char *name;
-    const char *tagline;
-    const char *role;
-    const char *school;
-    const char *focus;
-    const char *nodes;
-    const char *learning;
-    bool        open_to_work;
-} engineer_t;
-
-const engineer_t gopi = {
-    .name         = "Gopi Mahendran",
-    .tagline      = "From Silicon to Signal",
-    .role         = "Electronics Engineer - VLSI x Embedded",
-    .school       = "B.Tech ECE @ SRM-IST (Class of 2026, CGPA 8.1)",
-    .focus        = "RTL-to-GDSII, SystemVerilog verification, STM32 firmware",
-    .nodes        = "180nm -> 90nm -> 45nm",
-    .learning     = "Low-power SoC, FPGA prototyping, self-debuggable EV controllers",
-    .open_to_work = true
-};
+```systemverilog
+// "From Silicon to Signal" - synthesizable, always building.
+module gopi_mahendran (
+    input  logic clk,
+    input  logic rst_n,
+    output logic open_to_work   // VLSI x Embedded | ECE @ SRM-IST '26
+);
+  // Focus: RTL-to-GDSII, SystemVerilog UVM, STM32 firmware
+  always_ff @(posedge clk or negedge rst_n)
+    if (!rst_n) open_to_work <= 1'b0;
+    else        open_to_work <= 1'b1;   // 0 -> 1, always
+endmodule
 ```
 
 - 🔐 **SystemVerilog Wizard** — constrained-random, functional coverage, golden models, zero fear.
@@ -129,16 +117,12 @@ const engineer_t gopi = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Dullbi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="stats"/>
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Dullbi&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="streak"/>
+<img height="180" src="https://streak-stats.demolab.com/?user=Dullbi&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="streak"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dullbi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8" alt="top langs"/>
+<br/><br/>
 
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Dullbi&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies"/>
+<img src="https://img.shields.io/github/followers/Dullbi?style=for-the-badge&color=58A6FF&labelColor=0D1117&logo=github&logoColor=white" alt="followers"/>
+<img src="https://komarev.com/ghpvc/?username=Dullbi&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="views"/>
 
 </div>
 
@@ -163,32 +147,24 @@ const engineer_t gopi = {
     <td width="50%" valign="top">
       <h3>⚡ Smart Energy Meter — V2X / X2V</h3>
       <p>TRL-6 prototype on a custom <b>STM32 PCB</b>: real-time V/I acquisition, 5-mode bidirectional power control across PV, grid, BESS, house & EV. UART + Raspberry Pi 5 IoT dashboard. <b>1764 constrained-random tests, 100% functional verification</b> (SIL & HIL).</p>
-      <a href="https://github.com/Dullbi/Smart-Energy-Meter-V2X">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Dullbi&repo=Smart-Energy-Meter-V2X&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Smart Energy Meter"/>
-      </a>
+      <a href="https://github.com/Dullbi/Smart-Energy-Meter-V2X"><img src="https://img.shields.io/badge/View_Repository-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Smart Energy Meter repo"/></a>
     </td>
     <td width="50%" valign="top">
       <h3>🧪 UART Verification — UVM Testbench</h3>
       <p>Full <b>UVM environment in SystemVerilog</b> built from scratch: sequencer, driver, monitor, agent, scoreboard, env. Constrained-random scenarios + functional coverage and assertions validating start/stop timing and baud-rate sync.</p>
-      <a href="https://github.com/Dullbi/UART-UVM-Verification">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Dullbi&repo=UART-UVM-Verification&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="UART UVM"/>
-      </a>
+      <a href="https://github.com/Dullbi/UART-UVM-Verification"><img src="https://img.shields.io/badge/View_Repository-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="UART UVM repo"/></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🔩 8-bit Gate-Level Comparator — RTL→GDSII</h3>
       <p>Custom 8-bit comparator in Verilog (==, &gt;, &lt;) taken through the <b>full RTL-to-GDSII flow at 180/90/45nm</b>. Genus synthesis (MMMC), Innovus floorplan/CTS/route, leakage-aware sizing, STA closure.</p>
-      <a href="https://github.com/Dullbi/RTL-to-GDSII-8bit-Comparator">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Dullbi&repo=RTL-to-GDSII-8bit-Comparator&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Comparator GDSII"/>
-      </a>
+      <a href="https://github.com/Dullbi/RTL-to-GDSII-8bit-Comparator"><img src="https://img.shields.io/badge/View_Repository-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Comparator GDSII repo"/></a>
     </td>
     <td width="50%" valign="top">
       <h3>🤖 Autonomous Agri-Rover — LiDAR + ML</h3>
       <p>Area-coverage path planning for crop farming with <b>3D-LiDAR RANSAC region-growing segmentation (99.98% accuracy, 50% faster runtime)</b>. 100% land coverage with 10% overlap, validated in simulation.</p>
-      <a href="https://github.com/Dullbi/Autonomous-Agri-Rover">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Dullbi&repo=Autonomous-Agri-Rover&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Agri Rover"/>
-      </a>
+      <a href="https://github.com/Dullbi/Autonomous-Agri-Rover"><img src="https://img.shields.io/badge/View_Repository-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Agri Rover repo"/></a>
     </td>
   </tr>
 </table>
