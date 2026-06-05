@@ -27,20 +27,35 @@
 </div>
 
 <!-- ===================== ABOUT ===================== -->
-## Hey there <img src="https://user-images.githubusercontent.com/74038190/214644145-264f4759-7633-441e-9d67-d8dda9d50d26.gif" width="28"> &nbsp;I'm Gopi — Builder of Brains & Bots
+## Hey there 👋 &nbsp;I'm Gopi — Builder of Brains & Bots
 
-<img align="right" alt="Coding" width="380" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"/>
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"/>
+
+![woah-yay](https://user-images.githubusercontent.com/92617405/235195655-04ae94de-6443-450e-9d80-06afb5cf38b5.gif)
 
 ```c
-struct Engineer {
-    char  name[]       = "Gopi Mahendran";
-    char  tagline[]    = "From Silicon to Signal";
-    char  role[]       = "Electronics Engineer — VLSI x Embedded";
-    char  school[]     = "B.Tech ECE @ SRM-IST  (Class of 2026, CGPA 8.1)";
-    char  focus[]      = "RTL-to-GDSII, SystemVerilog verification, STM32 firmware";
-    char  nodes[]      = "180nm -> 90nm -> 45nm";
-    char  learning[]   = "Low-power SoC, FPGA prototyping, self-debuggable EV controllers";
-    bool  open_to_work = true;
+#include <stdbool.h>
+
+typedef struct {
+    const char *name;
+    const char *tagline;
+    const char *role;
+    const char *school;
+    const char *focus;
+    const char *nodes;
+    const char *learning;
+    bool        open_to_work;
+} engineer_t;
+
+const engineer_t gopi = {
+    .name         = "Gopi Mahendran",
+    .tagline      = "From Silicon to Signal",
+    .role         = "Electronics Engineer - VLSI x Embedded",
+    .school       = "B.Tech ECE @ SRM-IST (Class of 2026, CGPA 8.1)",
+    .focus        = "RTL-to-GDSII, SystemVerilog verification, STM32 firmware",
+    .nodes        = "180nm -> 90nm -> 45nm",
+    .learning     = "Low-power SoC, FPGA prototyping, self-debuggable EV controllers",
+    .open_to_work = true
 };
 ```
 
