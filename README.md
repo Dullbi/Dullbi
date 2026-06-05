@@ -33,19 +33,8 @@
 
 ![woah-yay](https://user-images.githubusercontent.com/92617405/235195655-04ae94de-6443-450e-9d80-06afb5cf38b5.gif)
 
-```systemverilog
-// "From Silicon to Signal" - synthesizable, always building.
-module gopi_mahendran (
-    input  logic clk,
-    input  logic rst_n,
-    output logic open_to_work   // VLSI x Embedded | ECE @ SRM-IST '26
-);
-  // Focus: RTL-to-GDSII, SystemVerilog UVM, STM32 firmware
-  always_ff @(posedge clk or negedge rst_n)
-    if (!rst_n) open_to_work <= 1'b0;
-    else        open_to_work <= 1'b1;   // 0 -> 1, always
-endmodule
-```
+> ### ⚡ From Silicon to Signal
+> Electronics Engineer specializing in **VLSI · Embedded Systems · RTL-to-GDSII** — B.Tech ECE @ SRM-IST (Class of 2026).
 
 - 🔐 **SystemVerilog Wizard** — constrained-random, functional coverage, golden models, zero fear.
 - 🤖 Electronics engineer who **brings silicon to life**, merging embedded intelligence with VLSI precision — building systems from **0 → 1**.
